@@ -30,6 +30,12 @@ def test_numere_negative():
 
 
 def ultima_cifra(lst, cifra):
+    """
+    Determina cel mai mic numar care are ultima cifra egala cu un nr. dat
+    :param lst: Lista de numere
+    :param cifra: Numarul dat
+    :return: Cel mai mic numar care are ultima cifra egala cu un nr. dat
+    """
     listacresc = lst[:]
     listacresc.sort()
     for x in listacresc:
